@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arquitetura</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width: 800px)" href="style.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
     </style>
@@ -35,9 +36,13 @@
     </article>
     <footer>
         <h2>Conheça mais sobre nossos serviços:</h2>
-        <input id="getName" type="text" placeholder="Nome">
-        <input id="getEmail" type="text" placeholder="Email">
-        <input id="getBtn" type="button" value="Fale Conosco">
+        <form action="https://api.sheetmonkey.io/form/nw2wR9jVLXS1W1Eujq86ty" method="post">
+            <input id="getName" type="text" placeholder="Nome" name="Name" required />
+            <input id="getEmail" type="text" placeholder="Email" name="Email" required />
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button id="getBtn" type="submit" value="Fale Conosco">Fale Conosco</button>
+        </form>
+
     </footer>
 </body>
 </html>
