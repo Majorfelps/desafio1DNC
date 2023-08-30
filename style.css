@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+header{
+    background-color: #303030;
+    color: #FFFFFF ;
+    width: auto;
+}
+.titleHeader{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 72px; /* 120% */
+    padding-top: 75px;
+    padding-left: 50px;
+}
+.subHeader{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+    padding: 0 0 75px 50px;
+}
+section div {
+    display: grid;
+    grid-auto-flow: column;
+    background: #F9F9F9;
+    justify-content: space-around;
+    padding: 70px 0 75px 0;
+    text-decoration: none;
+    list-style: none;
+}
+section div p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+article{
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+}
+article div{
+    font-size: 20px;
+    padding: 350px 0 0 150px ;
+    font-style: normal;
+    font-weight: 300;
+}
+article div h2{
+    padding: 0 0 30px
+
+}
+article img{
+    width: 600px;
+    padding: 60px 0 72px ;
+}
+footer{
+    background-color:#303030;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+footer h2{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+}
+#getName{
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 0 0 0 8px;
+    margin: 20px 0 20px ;
+}
+#getEmail{
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 0 0 0 8px;
+    margin: 20px 0 20px ;
+}
+#getBtn{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background: #C07212;
+    text-align: center;
+    color: #FFF;
+    font-weight: 500;
+}
