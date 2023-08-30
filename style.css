@@ -63,6 +63,13 @@ footer{
     align-items: center;
     padding: 60px;
 }
+form{
+    background-color:#303030;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
 footer h2{
     color: #FFF;
     font-style: normal;
@@ -93,4 +100,13 @@ footer h2{
     text-align: center;
     color: #FFF;
     font-weight: 500;
+    cursor: pointer;
+}
+#getBtn:hover{
+    background:#303030;
+    text-align: center;
+    color: #FFF;
+    border: solid 2px #C07212;
+    scale: 1.1;
+    transition-delay: 300ms;
 }
