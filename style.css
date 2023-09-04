@@ -10,50 +10,48 @@ header{
     width: auto;
 }
 .titleHeader{
-    font-size: 40px;
+    font-size: 7vh;
     font-weight: 600;
-    line-height: 72px; /* 120% */
-    padding-top: 75px;
-    padding-left: 50px;
+    padding: 5vh 0 0 6vh;
 }
 .subHeader{
-    font-size: 16px;
+    font-size: 2.7vh;
     font-weight: 500;
-    line-height: 28px; /* 140% */
-    padding: 0 0 75px 50px;
+    padding: 0 0 4vh 6.5vh;
 }
 section div {
     display: grid;
     grid-auto-flow: column;
     background: #F9F9F9;
     justify-content: space-around;
-    padding: 70px 0 75px 0;
+    padding: 5vh 0 5.5vh 0;
     text-decoration: none;
     list-style: none;
 }
 section div p {
-    font-size: 20px;
+    font-size: 3vh;
     font-style: normal;
     font-weight: 500;
 }
 article{
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     justify-items: center;
 }
 article div{
-    font-size: 20px;
-    padding: 350px 0 0 150px ;
+    font-size: 2vh;
+    padding: 10vh 0 0 15vh;
     font-style: normal;
     font-weight: 300;
 }
 article div h2{
-    padding: 0 0 30px
+    padding: 0 0 2vh;
 
 }
-article img{
-    width: 600px;
-    padding: 60px 0 72px ;
+#imageArq{
+    max-width: 250vh;
+    padding: 10vh 0 15vh;
 }
 footer{
     background-color:#303030;
@@ -61,7 +59,7 @@ footer{
     justify-items: center;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 4vh;
 }
 form{
     background-color:#303030;
@@ -71,30 +69,32 @@ form{
     align-items: center;
 }
 footer h2{
+    font-size: 4vh;
     color: #FFF;
     font-style: normal;
     font-weight: 700;
 }
 #getName{
-    width: 400px;
-    height: 30px;
-    border-radius: 8px;
+    width: 40vh;
+    height: 3.5vh;
+    border-radius: 1vh;
     background: #FFF;
-    padding: 0 0 0 8px;
-    margin: 20px 0 20px ;
+    padding: 0 0 0 1vh;
+    margin: 2vh 0 2vh;
 }
 #getEmail{
-    width: 400px;
-    height: 30px;
-    border-radius: 8px;
+    width: 40vh;
+    height: 3.5vh;
+    border-radius: 1vh;
     background: #FFF;
-    padding: 0 0 0 8px;
-    margin: 20px 0 20px ;
+    padding: 0 0 0 1vh;
+    margin: 2vh 0 2vh;
 }
 #getBtn{
-    width: 150px;
-    height: 30px;
-    border-radius: 8px;
+    width: 20vh;
+    height: 3.5vh;
+    border-radius: 1vh;
+    margin: 2vh 0 2vh;
     border: none;
     background: #C07212;
     text-align: center;
@@ -106,7 +106,8 @@ footer h2{
     background:#303030;
     text-align: center;
     color: #FFF;
-    border: solid 2px #C07212;
+    border: solid 0.3vh #C07212;
     scale: 1.1;
-    transition-delay: 300ms;
-}
+    transition-delay: 250ms;
+} 
+
